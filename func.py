@@ -8,6 +8,7 @@ def get_int_number(input_string) -> int:
     except(ValueError):
         print('Ошибка ввода!')
         return get_int_number(input_string)
+
 def get_float_number(input_string) -> float:
     '''
     Ввод вещественного числа, через консоль.
@@ -18,6 +19,7 @@ def get_float_number(input_string) -> float:
     except(ValueError):
         print('Ошибка ввода!')
         return get_float_number(input_string)
+
 def factoral(num)->int:
     '''
      Факториал числа 
