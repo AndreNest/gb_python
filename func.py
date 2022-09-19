@@ -18,5 +18,13 @@ def get_float_number(input_string) -> float:
     except(ValueError):
         print('Ошибка ввода!')
         return get_float_number(input_string)
+def factoral(num)->int:
+    '''
+     Факториал числа 
+    '''
+    fact = 1
+    for i in range(2, num + 1):
+        fact *= i
+    return fact
 
 
