@@ -4,7 +4,7 @@
 
 
 from ast import Num
-import func
+import func as func
 
 
 fackt = func.factori(func.get_int_number('Введите число для поиска факторила: '))
